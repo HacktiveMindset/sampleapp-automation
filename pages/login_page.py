@@ -5,7 +5,7 @@ class LoginPage:
         self.driver = driver
 
     def go_to_login_page(self):
-        self.driver.get("https://example.com/login")
+        self.driver.get("https://practicetestautomation.com/practice-test-login/")
 
     def login(self, username, password):
         self.driver.find_element(By.ID, "username").send_keys(username)
